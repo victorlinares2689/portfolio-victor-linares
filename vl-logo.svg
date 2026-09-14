@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Logotipo VL — Victor Manuel Linares</title>
+  <desc id="desc">Monograma tecnológico VL en azul eléctrico y azul noche.</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#61D6FF"/>
+      <stop offset="100%" stop-color="#176BFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" rx="32" fill="#071426"/>
+  <g transform="translate(70 70)" fill="none" stroke="url(#blue)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 25 L120 235 L220 25" stroke-width="25"/>
+    <path d="M280 25 V235 H450" stroke-width="25"/>
+    <path d="M25 25 H450" stroke="#61D6FF" stroke-width="5" opacity=".45"/>
+  </g>
+  <g transform="translate(650 120)">
+    <text x="0" y="0" fill="#F4F8FF" font-family="Montserrat, Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="10">VL</text>
+    <text x="5" y="61" fill="#8BA5C9" font-family="Montserrat, Arial, sans-serif" font-size="25" font-weight="500" letter-spacing="5">VICTOR MANUEL LINARES</text>
+    <rect x="5" y="88" width="390" height="4" rx="2" fill="url(#blue)"/>
+    <text x="5" y="132" fill="#61D6FF" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="4">WEB DEVELOPER</text>
+  </g>
+</svg>
